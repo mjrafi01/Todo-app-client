@@ -52,7 +52,7 @@ export  const Navbar = () => {
             )}</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl"><FontAwesomeIcon icon={faTasks} />To Do</a>
+     <Link to="/"> <a className="btn btn-ghost text-xl"><FontAwesomeIcon icon={faTasks} />To Do</a></Link> 
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
